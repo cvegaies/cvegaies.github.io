@@ -1,0 +1,7 @@
+<h3 class="normal">Instalar mysql y phpmyadmin</h3>
+<div><a href="https://community.c9.io/t/setting-up-phpmyadmin/1723" target="dwes">https://community.c9.io/t/setting-up-phpmyadmin/1723</a></div>
+<ol>
+    <li>mysql-ctl install</li>
+    <li>phpmyadmin-ctl install</li>
+    <li>mysql-ctl start</li>
+</ol>
