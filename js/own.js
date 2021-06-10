@@ -4,7 +4,8 @@
     init();
     function addPagesSection(page, theme, pages) {
         for(var i = 0; i < pages; i++) {
-            document.getElementById('section-' + theme).innerHTML += '<section data-file="' + theme + '_' + i + '" id="tema-' + theme + '-pagina-' + i + '"></section>';
+            document.getElementById('section-' + theme).innerHTML +=
+		    '<section data-file="' + theme + '_' + i + '" id="tema-' + theme + '-pagina-' + i + '"></section>';
         }
     }
     function addThemeSection(page, theme) {
@@ -41,7 +42,6 @@
         addPages(data);
     }
     function load(page, id) {
-        console.log(page);
         var xhttp = new XMLHttpRequest();
         xhttp.responseType = 'text';
     	xhttp.onreadystatechange = function() {
