@@ -28,14 +28,14 @@
         }
         Reveal.initialize();
         Reveal.addEventListener('slidechanged', function( event ) {
-        	var state = Reveal.getState();
-        	var id = event.currentSlide.id;
-        	var element = document.getElementById(id);
-        	var content = element.innerHTML;
-        	if(content=='') {
-        	    var dataFile = element.getAttribute('data-file');
-        	    load(dataFile, id);
-        	}
+            var state = Reveal.getState();
+            var id = event.currentSlide.id;
+            var element = document.getElementById(id);
+            var content = element.innerHTML;
+            if(content=='') {
+        	var dataFile = element.getAttribute('data-file');
+        	load(dataFile, id);
+            }
         });
     }
     function init() {
@@ -45,11 +45,11 @@
         var xhttp = new XMLHttpRequest();
         xhttp.responseType = 'text';
     	xhttp.onreadystatechange = function() {
-    		if (xhttp.readyState == 4 && xhttp.status == 200) {
-		        document.getElementById(id).innerHTML = xhttp.responseText;
-		        var state = Reveal.getState();
+    	    if (xhttp.readyState == 4 && xhttp.status == 200) {
+		document.getElementById(id).innerHTML = xhttp.responseText;
+		var state = Reveal.getState();
                 Reveal.setState(state);
-    		}
+    	    }
     	};
     	xhttp.open("GET", 'data/' + page + '?r=' + new Date().getTime(), true);
     	xhttp.send();
