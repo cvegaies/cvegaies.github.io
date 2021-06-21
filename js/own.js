@@ -26,7 +26,10 @@
             addTitleSection(i + 1, json.temas[i].tema, json.temas[i].titulo);
             addPagesSection(i + 1, json.temas[i].tema, json.temas[i].archivos);
         }
-        Reveal.initialize();
+        //Reveal.initialize();
+	Reveal.initialize({
+            plugins: [ RevealMarkdown ]
+        });
         Reveal.addEventListener('slidechanged', function( event ) {
             var state = Reveal.getState();
             var id = event.currentSlide.id;
