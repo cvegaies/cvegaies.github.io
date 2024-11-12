@@ -14,5 +14,10 @@ let data = { "temas":
         {"tema": 12, "titulo": "DB",  "archivos": 1},
         {"tema": 13, "titulo": "PDO",  "archivos": 1},
         {"tema": 14, "titulo": "Paginación",  "archivos": 1},
+        {"tema": 15, "titulo": "Usuarios",  "archivos": 1},
+        {"tema": 16, "titulo": "Correo",  "archivos": 1},
+        {"tema": 17, "titulo": "Verificación",  "archivos": 1},
+        {"tema": 18, "titulo": "Fetch",  "archivos": 1},
+        {"tema": 19, "titulo": "REST",  "archivos": 1},
     ]
 };
