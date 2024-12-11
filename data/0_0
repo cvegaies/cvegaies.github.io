@@ -1,0 +1,2 @@
+<h3 class="normal">crear proyecto laravel</h3>
+<div>composer create-project laravel/laravel nombreProyecto</div>
