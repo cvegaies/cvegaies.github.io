@@ -1,2 +1,3 @@
-<h3 class="normal">cloud9</h3>
-<div>Cloud9 IDE is an online integrated development environment.</div>
+<h3 class="normal">php artisan route:list</h3>
+<div>php artisan r:l</div>
+<div>php artisan r:l --except-vendor</div>
