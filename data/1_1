@@ -1,7 +1,6 @@
-<h3 class="normal">Instalar cloud9</h3>
-<div><a href="https://community.c9.io/t/setting-up-phpmyadmin/1723" target="dwes">https://community.c9.io/t/setting-up-phpmyadmin/1723</a></div>
-<ol>
-    <li>mysql-ctl install</li>
-    <li>phpmyadmin-ctl install</li>
-    <li>mysql-ctl start</li>
-</ol>
+<h3 class="normal">creación de rutas</h3>
+<div>rutas de una aplicación web</div>
+<div>routes/web.php</div>
+<div>rutas de un servicio web</div>
+<div>routes/api.php</div>
+<div>php artisan install:api</div>
